@@ -62,6 +62,22 @@ let rain = true;
 */
 
 //CODE HERE
+let temperature = 85;
+let rain = false;
+
+if (temperature >= 80 && rain === true) {
+  console.log(`You should wear a t-shirt and take an umbrella.`);
+}  else if (temperature > 60 && rain === true) {
+    console.log(`You should wear a rain jacket.`);
+}  else if (temperature <= 60 && rain === true) {
+    console.log(`You should wear a jacket and carry an umbrella.`);
+}  else if(temperature >= 80 && rain === false) {
+    console.log(`You should wear a t-shirt, shorts and flip flops.`);
+}  else if (temperature > 60 && rain === false) {
+      console.log(`You should wear jeans and a hoodie with docs.`);
+}  else if (temperature <= 60 && rain === false) {
+    console.log(`You should wear a jacket and consider a hat and gloves.`);
+}  else console.log(`Sorry, I'm not sure what you should wear.`);
 
 ////////// PROBLEM 5 //////////
 
